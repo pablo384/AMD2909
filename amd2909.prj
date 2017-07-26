@@ -1,0 +1,6 @@
+vhdl work "../drive-download-20170726T214149Z-001/stack.vhdl"
+vhdl work "../drive-download-20170726T214149Z-001/mux_4.vhdl"
+vhdl work "../drive-download-20170726T214149Z-001/mpc.vhdl"
+vhdl work "../drive-download-20170726T214149Z-001/comps_sec.vhdl"
+vhdl work "../drive-download-20170726T214149Z-001/arq_reg.vhdl"
+vhdl work "../drive-download-20170726T214149Z-001/amd2909.vhdl"
