@@ -5,14 +5,14 @@ Parameter TMPDIR set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst/proj
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.05 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Reading design: amd2909.prj
@@ -61,20 +61,17 @@ Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" into lib
 Parsing entity <amd2909>.
 INFO:HDLCompiler:1676 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 19. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
 Parsing architecture <arq_amd> of entity <amd2909>.
-ERROR:HDLCompiler:1314 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal port/generic <se> is not declared in <stack>
-ERROR:HDLCompiler:432 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal <fe> has no actual or default value.
-INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. fe is declared here
-INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. push is declared here
-INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. pop is declared here
-ERROR:HDLCompiler:580 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 36: Mismatch on label ; expected arq_amd
-ERROR:HDLCompiler:854 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 23: Unit <arq_amd> ignored due to previous errors.
-VHDL file /home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl ignored due to errors
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.23 secs
+ 
 --> 
 
 
-Total memory usage is 339260 kilobytes
+Total memory usage is 339268 kilobytes
 
-Number of errors   :    4 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

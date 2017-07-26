@@ -36,6 +36,7 @@
     <file xil_pn:fileType="FILE_XST" xil_pn:name="registro.xst"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="stack.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="stack.stx"/>
+    <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="stack.vhi"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="stack.xst"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
