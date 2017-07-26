@@ -1,0 +1,80 @@
+Release 14.7 - xst P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Parameter xsthdpdir set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.05 secs
+ 
+--> 
+Reading design: amd2909.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" into library work
+Parsing entity <stack>.
+Parsing architecture <arq_stack> of entity <stack>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/mux_4.vhdl" into library work
+Parsing entity <mux_4>.
+Parsing architecture <arq_mux> of entity <mux_4>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/mpc.vhdl" into library work
+Parsing entity <mpc>.
+Parsing architecture <arq_mpc> of entity <mpc>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" into library work
+Parsing package <comps_sec>.
+INFO:HDLCompiler:1676 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 29. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/arq_reg.vhdl" into library work
+Parsing entity <registro>.
+Parsing architecture <arq_reg> of entity <registro>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" into library work
+Parsing entity <amd2909>.
+INFO:HDLCompiler:1676 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 19. declaration of a buffer port will make it difficult for you to validate this design by simulation. It is preferable to declare it as output
+Parsing architecture <arq_amd> of entity <amd2909>.
+ERROR:HDLCompiler:1314 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal port/generic <se> is not declared in <stack>
+ERROR:HDLCompiler:432 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal <fe> has no actual or default value.
+INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. fe is declared here
+INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. push is declared here
+INFO:HDLCompiler:1408 - "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" Line 21. pop is declared here
+ERROR:HDLCompiler:580 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 36: Mismatch on label ; expected arq_amd
+ERROR:HDLCompiler:854 - "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 23: Unit <arq_amd> ignored due to previous errors.
+VHDL file /home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl ignored due to errors
+--> 
+
+
+Total memory usage is 339260 kilobytes
+
+Number of errors   :    4 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

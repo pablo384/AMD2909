@@ -1,21 +1,21 @@
 Release 14.7 - xst P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> 
-Parameter TMPDIR set to xst/projnav.tmp
+Parameter TMPDIR set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
-Parameter xsthdpdir set to xst
+Parameter xsthdpdir set to /home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
-Reading design: amd2909.prj
+Reading design: stack.prj
 
 TABLE OF CONTENTS
   1) Synthesis Options Summary
@@ -40,76 +40,10 @@ TABLE OF CONTENTS
 
 
 =========================================================================
-*                      Synthesis Options Summary                        *
-=========================================================================
----- Source Parameters
-Input File Name                    : "amd2909.prj"
-Ignore Synthesis Constraint File   : NO
-
----- Target Parameters
-Output File Name                   : "amd2909"
-Output Format                      : NGC
-Target Device                      : xc7a100t-3-csg324
-
----- Source Options
-Top Module Name                    : amd2909
-Automatic FSM Extraction           : YES
-FSM Encoding Algorithm             : Auto
-Safe Implementation                : No
-FSM Style                          : LUT
-RAM Extraction                     : Yes
-RAM Style                          : Auto
-ROM Extraction                     : Yes
-Shift Register Extraction          : YES
-ROM Style                          : Auto
-Resource Sharing                   : YES
-Asynchronous To Synchronous        : NO
-Shift Register Minimum Size        : 2
-Use DSP Block                      : Auto
-Automatic Register Balancing       : No
-
----- Target Options
-LUT Combining                      : Auto
-Reduce Control Sets                : Auto
-Add IO Buffers                     : YES
-Global Maximum Fanout              : 100000
-Add Generic Clock Buffer(BUFG)     : 32
-Register Duplication               : YES
-Optimize Instantiated Primitives   : NO
-Use Clock Enable                   : Auto
-Use Synchronous Set                : Auto
-Use Synchronous Reset              : Auto
-Pack IO Registers into IOBs        : Auto
-Equivalent register Removal        : YES
-
----- General Options
-Optimization Goal                  : Speed
-Optimization Effort                : 1
-Power Reduction                    : NO
-Keep Hierarchy                     : No
-Netlist Hierarchy                  : As_Optimized
-RTL Output                         : Yes
-Global Optimization                : AllClockNets
-Read Cores                         : YES
-Write Timing Constraints           : NO
-Cross Clock Analysis               : NO
-Hierarchy Separator                : /
-Bus Delimiter                      : <>
-Case Specifier                     : Maintain
-Slice Utilization Ratio            : 100
-BRAM Utilization Ratio             : 100
-DSP48 Utilization Ratio            : 100
-Auto BRAM Packing                  : NO
-Slice Utilization Ratio Delta      : 5
-
-=========================================================================
-
-
-=========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
 Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" into library work
-ERROR:HDLCompiler:104 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 4: Cannot find <std_arith> in library <ieee>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
+ERROR:HDLCompiler:104 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 4: Cannot find <std_arith> in library <work>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
 Parsing entity <stack>.
 ERROR:HDLCompiler:854 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 6: Unit <stack> ignored due to previous errors.
 Parsing architecture <arq_stack> of entity <stack>.
@@ -130,7 +64,7 @@ VHDL file /home/pablo384/Documents/FPGA/ISE/code/stack.vhdl ignored due to error
 --> 
 
 
-Total memory usage is 347084 kilobytes
+Total memory usage is 336612 kilobytes
 
 Number of errors   :   15 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

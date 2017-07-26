@@ -5,7 +5,17 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="error" file="HDLCompiler" num="488" delta="new" >"/home/pablo384/Documents/FPGA/ISE/drive-download-20170726T214149Z-001/arq_reg.vhdl" Line 23: Illegal identifier : <arg fmt="%s" index="1">arq__reg</arg>
+<msg type="error" file="HDLCompiler" num="1314" delta="new" >"/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal port/generic &lt;<arg fmt="%s" index="1">se</arg>&gt; is not declared in &lt;<arg fmt="%s" index="2">stack</arg>&gt;
+</msg>
+
+<msg type="error" file="HDLCompiler" num="432" delta="new" >"/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 33: Formal &lt;<arg fmt="%s" index="1">fe</arg>&gt; has no actual or default value.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="580" delta="new" >"/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 36: Mismatch on label ; expected <arg fmt="%s" index="1">arq_amd</arg>
+</msg>
+
+<msg type="error" file="HDLCompiler" num="854" delta="new" >"/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" Line 23: Unit &lt;<arg fmt="%s" index="1">arq_amd</arg>&gt; ignored due to previous errors.
 </msg>
 
 </messages>
+

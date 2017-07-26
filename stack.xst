@@ -2,7 +2,7 @@ set -tmpdir "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst/projnav.tmp"
 set -xsthdpdir "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/xst"
 run -compileonly yes
 -p xc7a100t-3-csg324
--top amd2909
+-top stack
 -opt_mode Speed
 -opt_level 1
 -power NO
@@ -47,4 +47,4 @@ run -compileonly yes
 -iob Auto
 -equivalent_register_removal YES
 -slice_utilization_ratio_maxmargin 5
--ifn amd2909.prj
+-ifn stack.prj

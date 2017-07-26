@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;/home/pablo384/Documents/FPGA/ISE/code/arq_reg.vhdl&quot; into library work</arg>
 </msg>
 
 </messages>

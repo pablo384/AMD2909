@@ -1,0 +1,4 @@
+vhdtdtfi -prj proyectoFInal -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/registro.vhi -module registro -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../code/arq_reg.vhdl 
+vhdtdtfi -prj proyectoFInal -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/registro.vhi -module registro -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../code/arq_reg.vhdl 
+vhdtdtfi -lib work ../code/arq_reg.vhdl -prj proyectoFInal -o registro.spl -module registro -template /opt/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+vhdtdtfi -prj proyectoFInal -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/registro.vhi -module registro -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../code/arq_reg.vhdl 
