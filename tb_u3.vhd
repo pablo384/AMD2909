@@ -91,12 +91,26 @@ BEGIN
    begin		
       -- hold reset state for 100 ns.
       wait for 100 ns;
+		ST<="0010";
 		PC<="1010";
 		FE<='0';
 		PUSH<='1';
 		POP<='0';
 		wait for 100 ns;
+		PUSH<='0';
+		wait for 100 ns;
+		POP<='1';
+		wait for 100 ns;
+		
+		
+		PC<="1110";
+		FE<='0';
+		PUSH<='1';
 		POP<='0';
+		wait for 100 ns;
+		PUSH<='0';
+		wait for 100 ns;
+		POP<='1';
 		wait for 100 ns;
 
       wait for CLK_period*10;

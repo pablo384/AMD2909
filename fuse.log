@@ -8,16 +8,15 @@ Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3.vhd" in
 Starting static elaboration
 Completed static elaboration
 Fuse Memory Usage: 96768 KB
-Fuse CPU Usage: 1480 ms
+Fuse CPU Usage: 1160 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package numeric_std
 Compiling architecture arq_stack of entity stack [stack_default]
 Compiling architecture behavior of entity tb_u3
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
 Compiled 6 VHDL Units
 Built simulation executable /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_isim_beh.exe
-Fuse Memory Usage: 668316 KB
-Fuse CPU Usage: 1600 ms
-GCC CPU Usage: 220 ms
+Fuse Memory Usage: 668320 KB
+Fuse CPU Usage: 1260 ms
+GCC CPU Usage: 180 ms
