@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.06 secs
+Total CPU time to Xst completion: 0.05 secs
  
 --> 
 Reading design: amd2909.prj
@@ -109,30 +109,342 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Parsing                                  *
 =========================================================================
 Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" into library work
-ERROR:HDLCompiler:104 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 4: Cannot find <std_arith> in library <ieee>. Please ensure that the library was compiled, and that a library and a use clause are present in the VHDL file.
 Parsing entity <stack>.
-ERROR:HDLCompiler:854 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 6: Unit <stack> ignored due to previous errors.
 Parsing architecture <arq_stack> of entity <stack>.
-ERROR:HDLCompiler:374 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 12: Entity <stack> is not yet compiled.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 13: <std_logic_vector> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 16: <std_logic_vector> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 22: <x> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 23: <var> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 25: <st> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 24: <pop> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 27: <st> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 21: <push> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 20: <fe> is not declared.
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 19: <clk> is not declared.
-ERROR:HDLCompiler:989 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 19: Attribute event requires a static signal prefix
-ERROR:HDLCompiler:69 - "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl" Line 15: <fe> is not declared.
-VHDL file /home/pablo384/Documents/FPGA/ISE/code/stack.vhdl ignored due to errors
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/mux_4.vhdl" into library work
+Parsing entity <mux_4>.
+Parsing architecture <arq_mux> of entity <mux_4>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/mpc.vhdl" into library work
+Parsing entity <mpc>.
+Parsing architecture <arq_mpc> of entity <mpc>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/comps_sec.vhdl" into library work
+Parsing package <comps_sec>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/arq_reg.vhdl" into library work
+Parsing entity <registro>.
+Parsing architecture <arq_reg> of entity <registro>.
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl" into library work
+Parsing entity <amd2909>.
+Parsing architecture <arq_amd> of entity <amd2909>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <amd2909> (architecture <arq_amd>) from library <work>.
+
+Elaborating entity <registro> (architecture <arq_reg>) from library <work>.
+
+Elaborating entity <mpc> (architecture <arq_mpc>) from library <work>.
+
+Elaborating entity <stack> (architecture <arq_stack>) from library <work>.
+
+Elaborating entity <mux_4> (architecture <arq_mux>) from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <amd2909>.
+    Related source file is "/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl".
+    Summary:
+	no macro.
+Unit <amd2909> synthesized.
+
+Synthesizing Unit <registro>.
+    Related source file is "/home/pablo384/Documents/FPGA/ISE/code/arq_reg.vhdl".
+    Found 4-bit register for signal <REG>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <registro> synthesized.
+
+Synthesizing Unit <mpc>.
+    Related source file is "/home/pablo384/Documents/FPGA/ISE/code/mpc.vhdl".
+    Found 4-bit register for signal <PC>.
+    Found 4-bit adder for signal <Y[3]_GND_9_o_add_0_OUT> created at line 21.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <mpc> synthesized.
+
+Synthesizing Unit <stack>.
+    Related source file is "/home/pablo384/Documents/FPGA/ISE/code/stack.vhdl".
+    Summary:
+	no macro.
+Unit <stack> synthesized.
+
+Synthesizing Unit <mux_4>.
+    Related source file is "/home/pablo384/Documents/FPGA/ISE/code/mux_4.vhdl".
+    Found 4-bit 4-to-1 multiplexer for signal <Y> created at line 12.
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <mux_4> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 2
+ 4-bit register                                        : 2
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 4-bit adder                                           : 1
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+# Multiplexers                                         : 2
+ 4-bit 2-to-1 multiplexer                              : 1
+ 4-bit 4-to-1 multiplexer                              : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <amd2909> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block amd2909, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : amd2909.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 10
+#      INV                         : 1
+#      LUT3                        : 1
+#      LUT4                        : 1
+#      LUT5                        : 6
+#      LUT6                        : 1
+# FlipFlops/Latches                : 8
+#      FD                          : 4
+#      FDE                         : 4
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 12
+#      OBUF                        : 9
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 7a100tcsg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               4  out of  126800     0%  
+ Number of Slice LUTs:                   10  out of  63400     0%  
+    Number used as Logic:                10  out of  63400     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     10
+   Number with an unused Flip Flop:       6  out of     10    60%  
+   Number with an unused LUT:             0  out of     10     0%  
+   Number of fully used LUT-FF pairs:     4  out of     10    40%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          25
+ Number of bonded IOBs:                  22  out of    210    10%  
+    IOB Flip Flops/Latches:               4
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     32     3%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.424ns (Maximum Frequency: 702.050MHz)
+   Minimum input arrival time before clock: 1.452ns
+   Maximum output required time after clock: 1.709ns
+   Maximum combinational path delay: 1.737ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 1.424ns (frequency: 702.050MHz)
+  Total number of paths / destination ports: 10 / 4
+-------------------------------------------------------------------------
+Delay:               1.424ns (Levels of Logic = 2)
+  Source:            u2/PC_3 (FF)
+  Destination:       u2/PC_3 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: u2/PC_3 to u2/PC_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               1   0.361   0.295  u2/PC_3 (u2/PC_3)
+     LUT5:I4->O            3   0.097   0.566  u4/Mmux_Y41 (Y_3_OBUF)
+     LUT5:I1->O            1   0.097   0.000  u2/Mmux_Y[3]_Y[3]_mux_1_OUT41 (u2/Y[3]_Y[3]_mux_1_OUT<3>)
+     FD:D                      0.008          u2/PC_3
+    ----------------------------------------
+    Total                      1.424ns (0.563ns logic, 0.861ns route)
+                                       (39.5% logic, 60.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 52 / 12
+-------------------------------------------------------------------------
+Offset:              1.452ns (Levels of Logic = 3)
+  Source:            D<3> (PAD)
+  Destination:       u2/PC_3 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: D<3> to u2/PC_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   0.001   0.683  D_3_IBUF (D_3_IBUF)
+     LUT5:I0->O            3   0.097   0.566  u4/Mmux_Y41 (Y_3_OBUF)
+     LUT5:I1->O            1   0.097   0.000  u2/Mmux_Y[3]_Y[3]_mux_1_OUT41 (u2/Y[3]_Y[3]_mux_1_OUT<3>)
+     FD:D                      0.008          u2/PC_3
+    ----------------------------------------
+    Total                      1.452ns (0.203ns logic, 1.249ns route)
+                                       (14.0% logic, 86.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 12 / 9
+-------------------------------------------------------------------------
+Offset:              1.709ns (Levels of Logic = 3)
+  Source:            u2/PC_0 (FF)
+  Destination:       COUT (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: u2/PC_0 to COUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.361   0.299  u2/PC_0 (u2/PC_0)
+     LUT5:I4->O            5   0.097   0.575  u4/Mmux_Y11 (Y_0_OBUF)
+     LUT5:I1->O            1   0.097   0.279  u2/COUT1 (COUT_OBUF)
+     OBUF:I->O                 0.000          COUT_OBUF (COUT)
+    ----------------------------------------
+    Total                      1.709ns (0.555ns logic, 1.154ns route)
+                                       (32.5% logic, 67.5% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 33 / 5
+-------------------------------------------------------------------------
+Delay:               1.737ns (Levels of Logic = 4)
+  Source:            D<0> (PAD)
+  Destination:       COUT (PAD)
+
+  Data Path: D<0> to COUT
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   0.001   0.688  D_0_IBUF (D_0_IBUF)
+     LUT5:I0->O            5   0.097   0.575  u4/Mmux_Y11 (Y_0_OBUF)
+     LUT5:I1->O            1   0.097   0.279  u2/COUT1 (COUT_OBUF)
+     OBUF:I->O                 0.000          COUT_OBUF (COUT)
+    ----------------------------------------
+    Total                      1.737ns (0.195ns logic, 1.542ns route)
+                                       (11.2% logic, 88.8% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    1.424|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.31 secs
+ 
 --> 
 
 
-Total memory usage is 347084 kilobytes
+Total memory usage is 509212 kilobytes
 
-Number of errors   :   15 (   0 filtered)
+Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)
 Number of infos    :    0 (   0 filtered)
 

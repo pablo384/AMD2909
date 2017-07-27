@@ -1,0 +1,1 @@
+vhdtdtfi -prj proyectoFInal -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/mux_4.vhi -module mux_4 -template /opt/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../code/mux_4.vhdl 
