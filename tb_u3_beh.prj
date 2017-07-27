@@ -1,0 +1,2 @@
+vhdl work "../code/stack.vhdl"
+vhdl work "tb_u3.vhd"
