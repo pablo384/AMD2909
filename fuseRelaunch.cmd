@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_isim_beh.exe" -prj "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_beh.prj" "work.tb_u3" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe" -prj "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_beh.prj" "work.tb_u4" 

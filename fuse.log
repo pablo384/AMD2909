@@ -1,22 +1,22 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_isim_beh.exe -prj /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_beh.prj work.tb_u3 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe -prj /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_beh.prj work.tb_u4 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/stack.vhdl" into library work
-Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3.vhd" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/mux_4.vhdl" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 96768 KB
-Fuse CPU Usage: 1160 ms
+Fuse Memory Usage: 95056 KB
+Fuse CPU Usage: 1070 ms
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package numeric_std
-Compiling architecture arq_stack of entity stack [stack_default]
-Compiling architecture behavior of entity tb_u3
+Compiling architecture arq_mux of entity mux_4 [mux_4_default]
+Compiling architecture behavior of entity tb_u4
 Time Resolution for simulation is 1ps.
-Compiled 6 VHDL Units
-Built simulation executable /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u3_isim_beh.exe
-Fuse Memory Usage: 668320 KB
-Fuse CPU Usage: 1260 ms
-GCC CPU Usage: 180 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe
+Fuse Memory Usage: 660768 KB
+Fuse CPU Usage: 1100 ms
+GCC CPU Usage: 200 ms
