@@ -1,22 +1,34 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe -prj /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_beh.prj work.tb_u4 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_amd2909_isim_beh.exe -prj /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_amd2909_beh.prj work.tb_amd2909 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/stack.vhdl" into library work
 Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/mux_4.vhdl" into library work
-Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4.vhd" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/mpc.vhdl" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/comps_sec.vhdl" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/arq_reg.vhdl" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/../code/amd2909.vhdl" into library work
+Parsing VHDL file "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_top.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95056 KB
-Fuse CPU Usage: 1070 ms
+Fuse Memory Usage: 98160 KB
+Fuse CPU Usage: 1020 ms
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling package comps_sec
+Compiling architecture arq_reg of entity registro [registro_default]
+Compiling architecture arq_mpc of entity mpc [mpc_default]
+Compiling architecture arq_stack of entity stack [stack_default]
 Compiling architecture arq_mux of entity mux_4 [mux_4_default]
-Compiling architecture behavior of entity tb_u4
+Compiling architecture arq_amd of entity amd2909 [amd2909_default]
+Compiling architecture tb of entity tb_amd2909
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 5 VHDL Units
-Built simulation executable /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe
-Fuse Memory Usage: 660768 KB
-Fuse CPU Usage: 1100 ms
-GCC CPU Usage: 200 ms
+Compiled 17 VHDL Units
+Built simulation executable /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_amd2909_isim_beh.exe
+Fuse Memory Usage: 676164 KB
+Fuse CPU Usage: 1180 ms
+GCC CPU Usage: 470 ms

@@ -1,0 +1,29 @@
+Command line:
+   tb_amd2909_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  38387
+
+Fri Jul 28 07:24:46 2017
+
+
+ Elaboration Time: 0.02 sec
+
+ Current Memory Usage: 235.958 Meg
+
+ Total Signals          : 51
+ Total Nets             : 43
+ Total Signal Drivers   : 18
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 8
+ Total Traceable Variables  : 16
+ Total Scalar Nets and Variables : 545
+Total Line Count : 72
+
+ Total Simulation Time: 0.13 sec
+
+ Current Memory Usage: 311.46 Meg
+
+Fri Jul 28 07:25:38 2017
+

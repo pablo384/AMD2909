@@ -1,0 +1,7 @@
+vhdl isim_temp "../code/stack.vhdl"
+vhdl isim_temp "../code/mux_4.vhdl"
+vhdl isim_temp "../code/mpc.vhdl"
+vhdl isim_temp "../code/comps_sec.vhdl"
+vhdl isim_temp "../code/arq_reg.vhdl"
+vhdl isim_temp "../code/amd2909.vhdl"
+vhdl isim_temp "tb_top.vhd"

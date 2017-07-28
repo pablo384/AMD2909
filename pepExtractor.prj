@@ -1,1 +1,6 @@
+work	"../code/amd2909.vhdl"
+work	"../code/arq_reg.vhdl"
+work	"../code/comps_sec.vhdl"
+work	"../code/mpc.vhdl"
 work	"../code/mux_4.vhdl"
+work	"../code/stack.vhdl"

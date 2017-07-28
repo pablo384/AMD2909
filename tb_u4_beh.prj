@@ -1,2 +1,0 @@
-vhdl work "../code/mux_4.vhdl"
-vhdl work "tb_u4.vhd"

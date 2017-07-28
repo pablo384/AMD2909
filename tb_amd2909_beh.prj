@@ -1,0 +1,7 @@
+vhdl work "../code/stack.vhdl"
+vhdl work "../code/mux_4.vhdl"
+vhdl work "../code/mpc.vhdl"
+vhdl work "../code/comps_sec.vhdl"
+vhdl work "../code/arq_reg.vhdl"
+vhdl work "../code/amd2909.vhdl"
+vhdl work "tb_top.vhd"

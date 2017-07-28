@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_u4_isim_beh.wdb 
+Running: /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_amd2909_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_amd2909_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 ----------------------------------------------------------------------
 INFO:Security:60 - The XILINXD_LICENSE_FILE environment variable is set to '/opt/Xilinx/14.7/ISE_DS/Xilinx.lic'.

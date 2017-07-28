@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/mpc.xst" -ofn "/home/pablo384/Documents/FPGA/ISE/proyectoFInal/mpc.syr" 
