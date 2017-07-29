@@ -26,13 +26,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -43,7 +43,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000002da000000040101000100000000000000000000000064ffffffff000000810000000000000004000001c90000000100000000000000290000000100000000000000840000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000050a000000040101000100000000000000000000000064ffffffff000000810000000000000004000001c90000000100000000000000290000000100000000000000840000000100000000000002940000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>/home/pablo384/Documents/FPGA/ISE/code/amd2909.vhdl</CurrentItem>
    </ItemView>
@@ -69,33 +69,32 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>View RTL Schematic</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001d6000000010000000100000000000000000000000064ffffffff000000810000000000000001000001d60000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>View RTL Schematic</CurrentItem>
+      <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000014c0000011d01000000060100000002</SourceProcessView>
-   <CurrentView>Implementation</CurrentView>
+   <CurrentView>Behavioral Simulation</CurrentView>
    <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
          <ClosedNode>/amd2909 - arq_amd |home|pablo384|Documents|FPGA|ISE|code|amd2909.vhdl</ClosedNode>
+         <ClosedNode>/tb_amd2909 - tb |home|pablo384|Documents|FPGA|ISE|proyectoFInal|tb_top.vhd/dut - amd2909 - arq_amd</ClosedNode>
          <ClosedNode>/tb_u1 - behavior |home|pablo384|Documents|FPGA|ISE|proyectoFInal|tb_u1.vhd</ClosedNode>
          <ClosedNode>/tb_u2 - behavior |home|pablo384|Documents|FPGA|ISE|proyectoFInal|tb_u2.vhd</ClosedNode>
-         <ClosedNode>/tb_u3 - behavior |home|pablo384|Documents|FPGA|ISE|proyectoFInal|tb_u3.vhd</ClosedNode>
-         <ClosedNode>/tb_u4 - behavior |home|pablo384|Documents|FPGA|ISE|proyectoFInal|tb_u4.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+         <SelectedItem>tb_amd2909 - tb (/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_top.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000284000000020000000000000000000000000200000064ffffffff000000810000000300000002000002840000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+      <CurrentItem>tb_amd2909 - tb (/home/pablo384/Documents/FPGA/ISE/proyectoFInal/tb_top.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
       <ClosedNodes>
@@ -120,7 +119,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000128000000010000000100000000000000000000000064ffffffff000000810000000000000001000001280000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Simulate Behavioral Model</CurrentItem>
    </ItemView>
@@ -129,13 +128,13 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem/>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000001e5000000010000000100000000000000000000000064ffffffff000000810000000000000001000001e50000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem/>
    </ItemView>
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="ManualCompile" >
       <ClosedNodes>
