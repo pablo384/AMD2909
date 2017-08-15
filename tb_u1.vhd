@@ -89,9 +89,14 @@ BEGIN
       wait for CLK_period*10;
 
       -- insert stimulus here 
-		ER<='0';
+		ER<='1';
 		R<="1010";
-		wait for 100 ns;	
+		wait for 100 ns;
+		ER<='0';
+		R<="1001";
+		wait for 100 ns;
+		R<="1010";
+		wait for 100 ns;
 
       wait;
    end process;

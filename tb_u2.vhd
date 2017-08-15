@@ -94,6 +94,7 @@ BEGIN
 		
 		CIN<='0';
 		wait for 100 ns;
+		
 
       wait for CLK_period*10;
 

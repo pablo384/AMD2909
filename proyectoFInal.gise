@@ -62,6 +62,7 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="registro.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="registro.stx"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="registro.xst"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="registro_isim_beh.exe"/>
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="stack.prj"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="stack.stx"/>
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="stack.vhi"/>
@@ -81,11 +82,11 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1501115365" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1501115365">
+    <transform xil_pn:end_ts="1501356367" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1501356367">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501352917" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501352917">
+    <transform xil_pn:end_ts="1501356416" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1501356416">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../code/amd2909.vhdl"/>
@@ -100,19 +101,19 @@
       <outfile xil_pn:name="tb_u3.vhd"/>
       <outfile xil_pn:name="tb_u4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501239202" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4842335906529884983" xil_pn:start_ts="1501239202">
+    <transform xil_pn:end_ts="1501543350" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4842335906529884983" xil_pn:start_ts="1501543350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501239202" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2365952691013931925" xil_pn:start_ts="1501239202">
+    <transform xil_pn:end_ts="1501543350" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="2365952691013931925" xil_pn:start_ts="1501543350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501239202" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="757609388249009735" xil_pn:start_ts="1501239202">
+    <transform xil_pn:end_ts="1501356367" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="757609388249009735" xil_pn:start_ts="1501356367">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1501352917" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501352917">
+    <transform xil_pn:end_ts="1501356416" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1501356416">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="../code/amd2909.vhdl"/>
@@ -127,9 +128,10 @@
       <outfile xil_pn:name="tb_u3.vhd"/>
       <outfile xil_pn:name="tb_u4.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1501352919" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6492349710176896056" xil_pn:start_ts="1501352917">
+    <transform xil_pn:end_ts="1501543352" xil_pn:in_ck="-8189524762517258538" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="6492349710176896056" xil_pn:start_ts="1501543350">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="fuse.log"/>
@@ -139,9 +141,13 @@
       <outfile xil_pn:name="tb_amd2909_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1501352919" xil_pn:in_ck="1020360429054651181" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4481665495138893083" xil_pn:start_ts="1501352919">
+    <transform xil_pn:end_ts="1501543732" xil_pn:in_ck="7460274328163260715" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-4481665495138893083" xil_pn:start_ts="1501543731">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
       <outfile xil_pn:name="isim.cmd"/>
       <outfile xil_pn:name="isim.log"/>
       <outfile xil_pn:name="tb_amd2909_isim_beh.wdb"/>
